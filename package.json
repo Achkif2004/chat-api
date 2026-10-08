@@ -1,0 +1,17 @@
+{
+  "name": "chat-api",
+  "version": "1.0.0",
+  "description": "Basic JSON API (JSend) for a live chat app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "author": "Soulaimane Achkif",
+  "license": "ISC",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.3"
+  }
+}
